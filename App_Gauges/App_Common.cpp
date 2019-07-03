@@ -502,13 +502,13 @@ void App_Common_Init(Gpu_Hal_Context_t *phost)
 void App_Common_Start(Gpu_Hal_Context_t *phost, char* info[])
 {
     /* Screen Calibration*/
-    App_Calibrate_Screen(phost);
+    //App_Calibrate_Screen(phost);
 
     /* Show Bridgetek logo */
     App_Show_Logo(phost);
 
     /* Show welcome screen, waiting user to press Play button */
-    App_Show_WelcomeScreen(phost,info);
+    //App_Show_WelcomeScreen(phost,info);
 }
 
 void App_Common_Close(Gpu_Hal_Context_t *phost)

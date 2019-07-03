@@ -39,7 +39,7 @@ Revision History:
 #define ARDUINO_PLATFORM
 
 /* Module specific configurations */
-#define VM800P43_50
+//#define VM800P43_50
 //#define VM800P35
 //#define VM801P43_50
 //#define VM800B43_50
@@ -146,29 +146,29 @@ Revision History:
 
 /* Custom configuration set by the user */
 #if (!defined(VM800P43_50) && !defined(VM800P35) &&!defined(VM801P43_50) &&!defined(VM800B43_50) &&!defined(VM800B35) &&!defined(VM801B43_50))
-#define DISPLAY_RESOLUTION_QVGA                     (1)
-#define DISPLAY_RESOLUTION_WQVGA                    (1)
+//#define DISPLAY_RESOLUTION_QVGA                     (1)
+//#define DISPLAY_RESOLUTION_WQVGA                    (1)
 #define DISPLAY_RESOLUTION_WVGA                     (1)
-#define DISPLAY_RESOLUTION_HVGA_PORTRAIT            (1)
+//#define DISPLAY_RESOLUTION_HVGA_PORTRAIT            (1)
 
 /* Chip configuration specific macros */
-#define FT800_ENABLE                            (1)
-#define FT801_ENABLE                            (1)
-#define FT810_ENABLE                            (1)
-#define FT811_ENABLE                            (1)
-#define FT812_ENABLE                            (1)
+//#define FT800_ENABLE                            (1)
+//#define FT801_ENABLE                            (1)
+//#define FT810_ENABLE                            (1)
+//#define FT811_ENABLE                            (1)
+//#define FT812_ENABLE                            (1)
 #define FT813_ENABLE                            (1)
 
 /* SPI specific macros - compile time switches for SPI single, dial and quad use cases */
 #define ENABLE_SPI_SINGLE                          (1)
-#define ENABLE_SPI_DUAL                            (1)
-#define ENABLE_SPI_QUAD                            (1)
+//#define ENABLE_SPI_DUAL                            (1)
+//#define ENABLE_SPI_QUAD                            (1)
 
 #define FT800_PD_N                                 (4)
 #define FT800_CS                                   (10)
 
 /* Display driver configurations - mainly for ME900EV1 modules */
-#define ENABLE_ILI9488_HVGA_PORTRAIT            (1)
+//#define ENABLE_ILI9488_HVGA_PORTRAIT            (1)
 #define ARDUINO_PLATFORM_SPI
 
 /* Threshold for resistance */
